@@ -2,6 +2,9 @@ h2{
 	text-align:center;
 	color: blue;
 }
+.block-heading{
+text-align:center;
+}
 .block-heading p {
    margin-bottom: 20px;
 	text-align:center;
