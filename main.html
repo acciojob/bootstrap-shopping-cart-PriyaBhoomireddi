@@ -3,14 +3,117 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles.css
+		 <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .block-heading {
+            color: #3b99e0;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .summary {
+            background-color: #f7fbff;
+            padding: 20px;
+            border-top: 3px solid #5ea4f3;
+        }
+        .summary .summary-item {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(0,0,0,.1);
+        }
+        .summary .summary-item:last-child {
+            border-bottom: none;
+        }
+        .summary .btn-primary {
+            background-color: #3b99e0;
+            border-color: #3b99e0;
+            width: 100%;
+        }
+        .product .product-details {
+            padding-left: 20px;
+        }
+        .product .quantity {
+            width: 60px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <h2 class="block-heading">Shopping cart</h2>
+        <p class="text-center">The customer is very important, the customer will be followed by the customer. Now, as an urn, I have no right to be in possession of property.</p>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="product row mb-3">
+                    <div class="col-4">
+                        <img src="https://via.placeholder.com/100" alt="Product Image" class="img-fluid">
+                    </div>
+                    <div class="col-8 product-details">
+                        <h5><a href="#">I am very sorry</a></h5>
+                        <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+                        <div class="row">
+                            <div class="col">
+                                <label>Quantity:</label>
+                                <input type="number" value="0" class="form-control quantity">
+                            </div>
+                            <div class="col">
+                                <label>Price:</label>
+                                <p>$120</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product row mb-3">
+                    <div class="col-4">
+                        <img src="https://via.placeholder.com/100" alt="Product Image" class="img-fluid">
+                    </div>
+                    <div class="col-8 product-details">
+                        <h5><a href="#">I am very sorry</a></h5>
+                        <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+                        <div class="row">
+                            <div class="col">
+                                <label>Quantity:</label>
+                                <input type="number" value="1" class="form-control quantity">
+                            </div>
+                            <div class="col">
+                                <label>Price:</label>
+                                <p>$120</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product row mb-3">
+                    <div class="col-4">
+                        <img src="https://via.placeholder.com/100" alt="Product Image" class="img-fluid">
+                    </div>
+                    <div class="col-8 product-details">
+                        <h5><a href="#">I am very sorry</a></h5>
+                        <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
+                        <div class="row">
+                            <div class="col">
+                                <label>Quantity:</label>
+                                <input type="number" value="1" class="form-control quantity">
+                            </div>
+                            <div class="col">
+                                <label>Price:</label>
+                                <p>$120</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="summary">
+                    <h5>Summary</h5>
+                    <div class="summary-item"><span class="text">Subtotal</span><span class="price">$360</span></div>
+                    <div class="summary-item"><span class="text">Discount</span><span class="price">$0</span></div>
+                    <div class="summary-item"><span class="text">Shipping</span><span class="price">$0</span></div>
+                    <div class="summary-item"><span class="text">Total</span><span class="price">$360</span></div>
+                    <button type="button" class="btn btn-primary btn-lg btn-block">checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
-
 </html>
