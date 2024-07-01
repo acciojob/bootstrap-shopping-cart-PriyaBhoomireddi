@@ -1,6 +1,7 @@
-.block-heading {
+.block-heading p {
     color: #3b99e0;
     margin-bottom: 20px;
+	text-align:center;
 }
 
 .summary {
